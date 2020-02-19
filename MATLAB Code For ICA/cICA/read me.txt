@@ -1,0 +1,14 @@
+
+cICAdemo is a demo file for simulations of cICA algorithm, which was first proposed in
+
+Wei Lu, Jagath C. Rajapakse: ICA with reference. ICA 2001
+
+The demo file shows that the original cICA algorithm is very sensitive to the reference signals and parameters of the algorithm. For detailed analysis and a robust algorithm, see:
+
+Zhi-Lin Zhang, Morphologically Constrained ICA for Extracting Weak Temporally Correlated Signals, Neurocomputing 71(7-9) (2008) 1669-1679 
+
+
+Author: Zhilin Zhang (z4zhang@ucsd.edu)
+
+
+

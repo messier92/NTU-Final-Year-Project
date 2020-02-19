@@ -1,0 +1,33 @@
+OriginPro 9.1
+
+Steps for all: 
+1. Plot x and y1 from given data to Origins
+2. Apply Smoothing -> Averaging Filter -> 5 points of Window
+3. Analysis -> Peaks and Baseline -> Peaks Analyzer -> Open Dialog
+4. Subtract Baseline -> User Defined -> Select Snap to Spectrum -> 2nd Derivative -> Number of Points: see bottom
+5. Connect by: Fitting(Pro), see bottom
+
+Normalize Subtract Baseline data to [0,1]
+
+Steps for Pure CL (done): 
+Number of Points: 11 (to manually select the extreme end)
+Fitting(Pro), Cubic
+
+Steps for Ca on CL (done):
+Number of Points: 11 (to manually select the extreme end)
+Fitting(Pro), Cubic
+
+Steps for Pure CA(done):
+Number of Points: 11 (to manually select the extreme end)
+Fitting(Pro), Poly5
+
+*downsample Pure CA and Pure PA to 1029 datapoints first before preprocessing step
+
+Steps for Pa on CL:
+Number of Points: 11
+Fitting(Pro), Poly5
+
+
+Steps for Pa:
+Number of Points: 11
+Fitting(Pro), Poly5

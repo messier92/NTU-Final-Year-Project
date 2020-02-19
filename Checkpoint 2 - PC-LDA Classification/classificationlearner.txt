@@ -1,0 +1,13 @@
+Steps to classify using LDA on MATLAB:
+
+[from Raman Spectra, get PCA of all 14 or 32 datasets. THEN transpose it to only get the first 2 columns which we want.
+Save the first 2 columns only and add in the Type in the .csv file.]
+
+On MATLAB 2015b, type in [fishertable = readtable('fisheriris.csv');]
+or import your own .csv file and read the csv as TABLE. 
+MUST MAKE IT IN TABLE FORMAT.
+
+Start 'Classification Learner' on App, the model should already be preloaded.
+Predictors are FirstFeature and SecondFeature and Response is Class Type.
+
+Select Linear Discriminant and Train model to get results.
